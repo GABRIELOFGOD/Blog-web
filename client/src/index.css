@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #272727;
+}
+
+.topic .active{
+  color: #6EEB83;
+  font-weight: bold;
+}
+
+.topic::-webkit-scrollbar{
+  display: none;
+}
+
+.toggle .active{
+  color: #272727;
+  background: #6EEB83;
+  padding: 10px;
+  border-radius: 100%;
+}
