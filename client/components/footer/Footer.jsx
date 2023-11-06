@@ -54,7 +54,7 @@ const Footer = () => {
 //   }
   
   return(
-    <div className='bg-black px-2 md:px-8 lg:px-12 text-primary bottom-0 sticky w-full py-4'>
+    <div className='bg-black px-2 md:px-8 lg:px-12 text-primary bottom-0 sticky z-10 w-full py-4'>
       <div className='flex relative transition-all duration-300 toggle justify-between px-3 '>
         {
           items.map((item, index) => (

@@ -10,7 +10,7 @@ export default {
       colors:{
         'secondary': '#272727',
         'primary': '#6EEB83',
-        'body': '#6EEB81',
+        'body': '#76E67e',
         'gray': '#8f8f8f',
         'darker': '#232429'
       },

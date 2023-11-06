@@ -1,5 +1,7 @@
 import { datas } from '../utils/dummy'
 
-export const findBlog = datas.forEach(data => {
-  return data
-})
+export const findBlog = (idc) => {
+  datas.map(data => {
+    if(data.id == idc) return data
+  })
+}

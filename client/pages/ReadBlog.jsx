@@ -1,19 +1,21 @@
 import { useParams } from 'react-router-dom'
 
-import {findBlog} from '../context/finder'
+import BlogComp from '../components/BlogComp'
+
+import { single, datas } from '../utils/dummy'
 
 const ReadBlog = () => {
   const { id } = useParams()
   
-  const btnFct = () => {
-    console.log(findBlog)
-  }
+  datas.map(data => {
+    if(data)
+  })
+  
    return (
      <div>
-       ReadBlog {id}
-       <button onClick={btnFct}>button</button>
+       <BlogComp blog={single} />
      </div>
     )
   }
   
-  export default ReadBlog
+export default ReadBlog;
